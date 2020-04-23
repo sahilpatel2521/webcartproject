@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">WebCart</string>
+    <string name="drawer_close">drawer_close</string>
+    <string name="drawer_open">drawer_open</string>
+    <string name="nav_settings">Setting</string>
+    <string name="grocery"><![CDATA[Grocery & Staples]]></string>
+    <string name="vegetable">Vegetable</string>
+    <string name="kitchen"><![CDATA[Home & Kitchen]]></string>
+    <string name="house">HouseHold Items</string>
+</resources>

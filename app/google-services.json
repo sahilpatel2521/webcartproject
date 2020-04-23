@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "84883659840",
+    "firebase_url": "https://webcart-6a564.firebaseio.com",
+    "project_id": "webcart-6a564",
+    "storage_bucket": "webcart-6a564.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:84883659840:android:7a1f8009f2faf6e5bf53a5",
+        "android_client_info": {
+          "package_name": "com.example.webcart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "84883659840-rgna5tn6umr3j35cof1jnsoch8ek3ldc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.webcart",
+            "certificate_hash": "aed3d7f9ff0686e8234d02d4b35a716aad963116"
+          }
+        },
+        {
+          "client_id": "84883659840-2ekjlklei95s2hramb3v1vh28901ogbs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBO73fWxFEQWcUDl9Xn_zAzS7jhrDCzWac"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "84883659840-2ekjlklei95s2hramb3v1vh28901ogbs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

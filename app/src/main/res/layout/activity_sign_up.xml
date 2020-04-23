@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg2"
+    android:layout_height="match_parent"
+    tools:context=".SignUp">
+
+
+    <ImageView
+        android:layout_width="268dp"
+        android:layout_height="169dp"
+        android:layout_gravity="center"
+        android:contentDescription="TODO"
+        android:elevation="4dp"
+        android:src="@drawable/logo2" />
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:background="@drawable/layout_corners"
+        android:elevation="4dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:textSize="30dp"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/superhero"
+            android:textStyle="bold"
+            android:text="Register" />
+
+
+        <EditText
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:id="@+id/mail_id"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:drawableLeft="@drawable/ic_email_black_24dp"
+        android:inputType="textEmailAddress"
+        android:layout_gravity="center"
+        android:hint="\t Enter E-mail Id"/>
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:id="@+id/uname_sign"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:drawableLeft="@drawable/user"
+        android:layout_gravity="center"
+        android:hint="\t Enter User Name"/>
+
+
+    <EditText
+        android:layout_margin="5dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:id="@+id/pass_sign"
+        android:layout_gravity="center"
+        android:inputType="textPassword"
+        android:hint="\t Enter Password"/>
+
+    <EditText
+        android:layout_margin="5dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:id="@+id/pass_sign2"
+        android:layout_gravity="center"
+        android:inputType="textPassword"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:hint="Re-Enter Password"/>
+
+    <Button
+        android:elevation="4dp"
+        android:layout_margin="20dp"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:text="Signup"
+        android:background="@drawable/round_button"
+        android:textSize="20dp"
+        android:id="@+id/sign"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"/>
+    </LinearLayout>
+
+</LinearLayout>

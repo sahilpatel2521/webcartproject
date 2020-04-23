@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context=".Start">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="180dp"
+        android:src="@drawable/logo2"
+        android:layout_gravity="center"
+    />
+
+    <Button
+        android:layout_width="290dp"
+        android:layout_height="72dp"
+        android:background="@drawable/round_button"
+        android:id="@+id/login"
+        android:text="Log In"
+        android:drawableLeft="@drawable/ic_email_black_24dp"
+        android:padding="10dp"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center"/>
+
+
+        <Button
+            android:layout_width="290dp"
+            android:layout_height="72dp"
+            android:background="@drawable/round_button"
+            android:id="@+id/signinemail"
+            android:drawableLeft="@drawable/ic_email_black_24dp"
+            android:text="Sign In With Email"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:elevation="4dp"
+            android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Skip"
+        android:background="@drawable/round_button"
+        android:id="@+id/skip"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/shopping_png"/>
+
+</LinearLayout>
